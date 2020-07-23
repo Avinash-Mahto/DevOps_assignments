@@ -22,3 +22,13 @@
                         NAME                                                   REFERENCE                     TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
                         horizontalpodautoscaler.autoscaling/nginx-deployment   Deployment/nginx-deployment   <unknown>/80%   7         10        7          86d
                         [root@k8s-master ~]#
+                        
+                        
+                        
+                        [root@k8s-master ~]# kubectl get pods -o wide
+                        NAME                                 READY   STATUS    RESTARTS   AGE   IP             NODE       NOMINATED NODE   READINESS GATES
+                        nginx-hello-world-7d7c65496c-n8xkd   1/1     Running   1          8h    10.244.2.158   worker02   <none>           <none>
+                        nginx-hello-world-7d7c65496c-sgv2r   1/1     Running   1          8h    10.244.1.183   worker01   <none>           <none>
+                        [root@k8s-master ~]#
+
+
