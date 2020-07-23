@@ -13,4 +13,4 @@ $terraform plan
 
 STEP4.
 ## Finally Run the Terraform apply command
-terraform apply
+$terraform apply
