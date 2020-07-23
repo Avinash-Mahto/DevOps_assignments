@@ -1,6 +1,7 @@
 STEP1. 
 ## EXPORT the AWS access/secret keys on your console
 $ export var.aws_access_key = 
+
 $ export var.aws_secret_key = 
 
 STEP2. 
