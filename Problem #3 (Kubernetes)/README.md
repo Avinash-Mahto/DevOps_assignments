@@ -30,5 +30,7 @@
                         nginx-hello-world-7d7c65496c-n8xkd   1/1     Running   1          8h    10.244.2.158   worker02   <none>           <none>
                         nginx-hello-world-7d7c65496c-sgv2r   1/1     Running   1          8h    10.244.1.183   worker01   <none>           <none>
                         [root@k8s-master ~]#
+                        
+![image](https://user-images.githubusercontent.com/21194692/88318654-a1443880-cd4d-11ea-9422-72941f75168c.png)
 
 
